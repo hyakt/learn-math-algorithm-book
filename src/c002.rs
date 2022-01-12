@@ -1,6 +1,6 @@
 use proconio::input;
 
-fn main () {
+fn main() {
     input! {
         a1: usize,
         a2: usize,
