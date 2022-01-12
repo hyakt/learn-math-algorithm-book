@@ -1,0 +1,4 @@
+[toolchain]
+# 現時点でAtCorderで利用できるバージョンは 1.42.0 だが rust-analyzer が利用できないため 1.48.0 を利用する
+# 1.42.0
+channel = "1.48.0"
