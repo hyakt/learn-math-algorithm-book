@@ -18,6 +18,10 @@ path = "src/c001.rs"
 name = "c002"
 path = "src/c002.rs"
 
+[[bin]]
+name = "c003"
+path = "src/c003.rs"
+
 [dependencies]
 # AtCoder 2020年言語アップデート以降に使用できるクレート。
 # 次のページに各クレートについての細かい紹介があります。
@@ -119,6 +123,6 @@ proconio = { version = "=0.3.6", features = ["derive"] }
 #smallvec = "=1.2.0"
 
 # ---------------------------------------------------------------------
+cli_test_dir = "0.1"
 
 [dev-dependencies]
-cli_test_dir = "0.1"
