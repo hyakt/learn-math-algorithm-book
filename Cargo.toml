@@ -10,6 +10,10 @@ edition = "2018"
 name = "main"
 path = "src/main.rs"
 
+[[bin]]
+name = "c001"
+path = "src/c001.rs"
+
 [dependencies]
 # AtCoder 2020年言語アップデート以降に使用できるクレート。
 # 次のページに各クレートについての細かい紹介があります。
