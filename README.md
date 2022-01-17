@@ -4,7 +4,8 @@ training-math-algorithm-book
 新しくファイルを作るとき
 -----
 
-src 配下にファイルを作成し、`Cargo.toml`にエントリーポイントを追加する
+src/bin 配下にファイルを作成する
+https://doc.rust-lang.org/cargo/reference/cargo-targets.html#binaries
 
 ref
 -----
