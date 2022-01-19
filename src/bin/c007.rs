@@ -11,7 +11,7 @@ fn main() {
 
     for i in 1..=n {
         if i % x == 0 || i % y == 0 {
-            count = count + 1
+            count += 1
         };
     }
 
@@ -32,6 +32,18 @@ mod tests {
             .tee_output()
             .expect_success();
         assert_eq!(output.stdout_str(), "7\n");
+        assert!(output.stderr_str().is_empty());
+    }
+
+    #[test]
+    fn sample2() {
+        let testdir = TestDir::new(BIN, "");
+        let output = testdir
+            .cmd()
+            .output_with_stdin("1000000 11 13")
+            .tee_output()
+            .expect_success();
+        assert_eq!(output.stdout_str(), "160839\n");
         assert!(output.stderr_str().is_empty());
     }
 }
