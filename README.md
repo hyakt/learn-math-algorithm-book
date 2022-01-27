@@ -14,4 +14,4 @@ ref
 - [RustCoder ―― AtCoder と Rust で始める競技プログラミング入門](https://zenn.dev/toga/books/rust-atcoder)
 - [AtCoder Rust Base (ja)](https://github.com/rust-lang-ja/atcoder-rust-base/tree/ja)
 - [AtCoder用にVSCodeを用いたRustの開発環境の構築をした話](https://paruma184.hatenablog.com/entry/2021/09/22/210945)
-
+- [Rust Language Cheat Sheet](https://cheats.rs/)
