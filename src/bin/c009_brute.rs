@@ -29,7 +29,7 @@ fn main() {
 #[cfg(test)]
 mod tests {
     use cli_test_dir::*;
-    const BIN: &'static str = "./c008";
+    const BIN: &'static str = "./c009";
 
     #[test]
     fn sample1() {
